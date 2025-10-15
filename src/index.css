@@ -8,6 +8,16 @@
     box-sizing: border-box;
 }
 
+/* Generics */
+ol,
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* Body */
 body {
     font-family: var(--font-barlow);

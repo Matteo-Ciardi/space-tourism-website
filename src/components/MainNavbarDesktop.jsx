@@ -17,7 +17,9 @@ const MainNavbarDesktop = () => {
     return (
         <nav className="navbar">
             <div className="logo">
-                <Link to={"/"}>--LOGO--</Link>
+                <Link to={"/"}>
+                    <img src="src/assets/shared/logo.svg" />
+                </Link>
             </div>
 
             <button
