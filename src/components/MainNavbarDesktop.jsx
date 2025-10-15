@@ -1,4 +1,8 @@
 import { NavLink, Link } from "react-router-dom"
+import { MdMenu } from "react-icons/md";
+import { useState } from "react";
+
+import './MainNavbarDesktop.css'
 
 const navLinks = [
     { path: "/", label: "HOME" },
@@ -8,6 +12,7 @@ const navLinks = [
 ]
 
 const MainNavbarDesktop = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
 
     return (
         <nav className="navbar">
@@ -15,9 +20,14 @@ const MainNavbarDesktop = () => {
                 <Link to={"/"}>--LOGO--</Link>
             </div>
 
-            
+            <button
+                className="hamburger"
+                onClick={() => setMenuOpen(!menuOpen)}
+            >
+                <MdMenu />
+            </button>
 
-            <ul>
+            <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
                 {navLinks.map(link => (
                     <li key={link.path}>
                         <NavLink to={link.path}>

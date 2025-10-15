@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    position: fixed;
+    flex-direction: column;
+    right: -100%;
+    transition: right 0.3s;
+}
+
+.nav-links.active {
+    right: 0;
+    top: 20px;
+}
+
+.hamburger {
+    display: block;
+}
