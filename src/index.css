@@ -1,0 +1,16 @@
+@import './styles/utilities/text-presets.css';
+@import './styles/variables/colors.css';
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: var(--font-barlow);
+    background-color: var(--color-dark-blue-900);
+    color: var(--color-white);
+}

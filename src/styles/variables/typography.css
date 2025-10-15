@@ -1,0 +1,21 @@
+:root {
+    /* Fonts families */
+    --font-bellefair: 'Bellefair', serif; 
+    --font-barlow-condensed: 'Barlow Condensed', sans-serif;
+    --font-barlow: 'Barlow', sans-serif;
+
+    /* Font sizes */
+    --fs-preset-1: 144px;
+    --fs-preset-2: 100px;
+    --fs-preset-3: 56px;
+    --fs-preset-4: 32px;
+    --fs-preset-5: 28px;
+    --fs-preset-6: 28px;
+    --fs-preset-7: 14px;
+    --fs-preset-8: 16px; 
+    --fs-preset-9: 18px;
+
+    /* Font weights */
+    --fw-regular: 400;
+    --fs-bold: 600;
+}

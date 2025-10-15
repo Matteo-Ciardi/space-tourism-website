@@ -1,0 +1,30 @@
+:root {
+    /* Line heights */
+    --lh-preset-1: 171.9%;
+    --lh-preset-2: 114.6%;
+    --lh-preset-3: 64.2%;
+    --lh-preset-4: 36.7%;
+    --lh-preset-5: 33.6%;
+    --lh-preset-6: 32.1%;
+    --lh-preset-7: 16.8%;
+    --lh-preset-8: 19.2%;
+    --lh-preset-0: 180%;
+
+    /* Letter spacing */
+    --ls-0: 0px;
+    --ls-2: 2px;
+    --ls-4: 4px;
+
+    /* Spacing */
+    --sp-1600: 128px;
+    --sp-1200: 96px;
+    --sp-1000: 80px;
+    --sp-800: 64px;
+    --sp-600: 48px;
+    --sp-300: 24px;
+    --sp-200: 16px;
+    --sp-150: 12px;
+    --sp-100: 8px;
+    --sp-50: 4px;
+    --sp-26: 2px;
+}

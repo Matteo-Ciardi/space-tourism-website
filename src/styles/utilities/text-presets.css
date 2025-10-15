@@ -1,0 +1,76 @@
+@import '../variables/typography.css';
+@import '../variables/spacing.css';
+
+.text-preset-1 {
+    font-family: var(--font-bellefair);
+    font-size: var(--fs-preset-1);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-preset-1);
+    letter-spacing: var(--ls-0);
+}
+
+.text-preset-2 {
+    font-family: var(--font-bellefair);
+    font-size: var(--fs-preset-2);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-preset-2);
+    letter-spacing: var(--ls-0);
+}
+
+.tex-preset-3 {
+    font-family: var(--font-bellefair);
+    font-size: var(--fs-preset-3);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-presets-3);
+    letter-spacing: var(--ls-0);
+}
+
+.text-preset-4 {
+    font-family: var(--font-bellefair);
+    font-size: var(--fs-preset-4);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-preset-4);
+    letter-spacing: var(--ls-0);
+}
+
+.text-preset-5 {
+    font-family: var(--font-barlow-condensed);
+    font-size: var(--fs-preset-5);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-preset-5);
+    letter-spacing: var(--ls-4 );
+}
+
+.text-preset-6 {
+    font-family: var(--font-bellefair);
+    font-size: var(--fs-preset-6);
+    font-weight: var(--fw-regular);    
+    line-height: var(--lh-preset-6);
+    letter-spacing: var(--ls-preset-6);
+}
+
+.text-preset-7 {
+    font-family: var(--font-barlow-condensed);
+    font-size: var(--fs-preset-7);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-preset-7);
+    letter-spacing: var(--ls-2);
+}
+
+.text-preset-8 {
+    font-family: var(--font-barlow-condensed);
+    font-size: var(--fs-preset-8);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-preset-8);
+    letter-spacing: var(--ls-2);
+} 
+
+.text-preset-9 {
+    font-family: var(--font-barlow);
+    font-size: var(--fs-preset-9);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-preset-9);
+    letter-spacing: var(--ls-0);
+}
+
+
