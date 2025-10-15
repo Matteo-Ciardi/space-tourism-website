@@ -10,10 +10,12 @@ const navLinks = [
 const MainNavbarDesktop = () => {
 
     return (
-        <nav>
+        <nav className="navbar">
             <div className="logo">
                 <Link to={"/"}>--LOGO--</Link>
             </div>
+
+            
 
             <ul>
                 {navLinks.map(link => (
