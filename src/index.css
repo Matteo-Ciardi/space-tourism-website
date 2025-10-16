@@ -1,5 +1,7 @@
 @import './styles/utilities/text-presets.css';
 @import './styles/variables/colors.css';
+@import './styles/variables/spacing.css';
+@import './styles/variables/typography.css';
 
 /* CSS RESET */
 * {
@@ -16,6 +18,10 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+span {
+    display: block;
 }
 
 /* Body */

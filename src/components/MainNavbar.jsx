@@ -2,7 +2,7 @@ import { NavLink, Link } from "react-router-dom"
 import { MdMenu } from "react-icons/md";
 import { useState } from "react";
 
-import './MainNavbarDesktop.css'
+import './MainNavbar.css'
 
 const navLinks = [
     { path: "/", label: "HOME" },
@@ -11,23 +11,25 @@ const navLinks = [
     { path: "/technology", label: "TECHNOLOGY" }
 ]
 
-const MainNavbarDesktop = () => {
+const MainNavbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
         <nav className="navbar">
-            <div className="logo">
+            <div className="logo-box">
                 <Link to={"/"}>
-                    <img src="src/assets/shared/logo.svg" />
+                    <img src="src/assets/shared/logo.svg" className="logo" alt="Logo" />
                 </Link>
             </div>
 
-            <button
-                className="hamburger"
-                onClick={() => setMenuOpen(!menuOpen)}
-            >
-                <MdMenu />
-            </button>
+            <div className="hamburger-box">
+                <button
+                    className="hamburger"
+                    onClick={() => setMenuOpen(!menuOpen)}
+                >
+                    <MdMenu />
+                </button>
+            </div>
 
             <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
                 {navLinks.map(link => (
@@ -42,4 +44,4 @@ const MainNavbarDesktop = () => {
     )
 }
 
-export default MainNavbarDesktop
+export default MainNavbar

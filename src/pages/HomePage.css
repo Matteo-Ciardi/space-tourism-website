@@ -1,0 +1,26 @@
+.home-page-bg {
+    background-image: url('src/assets/home/background-home-mobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-content {
+    text-align: center;
+    padding: 24px;
+}
+
+.big-title {
+    font-family: var(--font-bellefair);
+    font-size: 80px;
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-preset-1);
+    letter-spacing: var(--ls-0);
+}
+
+.home-content {
+    font-family: var(--font-barlow-condensed);
+    font-size: var(--fs-preset-8);
+    font-weight: var(--fw-regular);
+    line-height: 180%;
+    letter-spacing: 1px;
+}

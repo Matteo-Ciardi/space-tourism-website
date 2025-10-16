@@ -17,7 +17,7 @@
     letter-spacing: var(--ls-0);
 }
 
-.tex-preset-3 {
+.text-preset-3 {
     font-family: var(--font-bellefair);
     font-size: var(--fs-preset-3);
     font-weight: var(--fw-regular);
@@ -68,7 +68,7 @@
 .text-preset-9 {
     font-family: var(--font-barlow);
     font-size: var(--fs-preset-9);
-    font-weight: var(--fw-regular);
+    font-weight: var(--fw-regular); 
     line-height: var(--lh-preset-9);
     letter-spacing: var(--ls-0);
 }
