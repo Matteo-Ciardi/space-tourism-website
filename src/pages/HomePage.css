@@ -24,3 +24,14 @@
     line-height: 180%;
     letter-spacing: 1px;
 }
+
+.home-button {
+    margin-top: 119px;
+    border-radius: 100%;
+    font-family: var(--font-bellefair);
+    font-weight: var(--fw-regular);
+    font-size: 18px;
+    width: 144px;
+    height: 144px;
+    cursor: pointer;
+}
