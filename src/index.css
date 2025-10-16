@@ -11,6 +11,15 @@
 }
 
 /* Generics */
+ol li::marker {
+    content: counter(list-item, decimal-leading-zero);
+    font-family: var(--font-barlow-condensed);
+    font-size: var(--fs-preset-8);
+    font-weight: bold;
+    line-height: var(--lh-preset-8);
+    letter-spacing: var(--ls-2);
+}
+
 a {
     text-decoration: none;
 }
