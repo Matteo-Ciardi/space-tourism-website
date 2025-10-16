@@ -34,11 +34,14 @@
     position: fixed;
     flex-direction: column;
     right: -100%;
-    top: 20px;
-    transition: right 0.3s;
+    transition: right 0.3s ease;
 }
 
 .nav-links.active {
     right: 0;
-    top: 20px;
+
+    width: 254px;
+    padding-left: 32px;
+    
+    background-color: grey;
 }

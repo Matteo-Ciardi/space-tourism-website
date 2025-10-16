@@ -31,7 +31,7 @@ const MainNavbar = () => {
                 </button>
             </div>
 
-            <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
+            <ol className={`nav-links ${menuOpen ? "active" : ""}`}>
                 {navLinks.map(link => (
                     <li key={link.path}>
                         <NavLink to={link.path}>
@@ -39,7 +39,7 @@ const MainNavbar = () => {
                         </NavLink>
                     </li>
                 ))}
-            </ul>
+            </ol>
         </nav>
     )
 }
